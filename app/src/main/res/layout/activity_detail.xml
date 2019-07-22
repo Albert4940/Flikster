@@ -21,10 +21,10 @@
 
     <RatingBar
         android:id="@+id/ratingBar"
-        android:layout_width="373dp"
+        android:layout_width="392dp"
         android:layout_height="wrap_content"
-        android:numStars="10"
         android:layout_marginBottom="15dp"
+        android:numStars="10"
         android:rating="8.2" />
 
     <TextView
