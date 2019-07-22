@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -11,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="17dp"
         android:layout_marginLeft="15dp"
+        android:layout_marginTop="17dp"
         android:layout_marginRight="15dp"
         tools:srcCompat="@tools:sample/avatars[9]" />
 
@@ -21,8 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/ivPoster"
         android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/ivPoster"
         android:textSize="24sp"
         tools:text="A Start Is Born" />
 
